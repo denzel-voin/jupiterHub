@@ -33,4 +33,4 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push username/my-jupyterhub:latest
+          docker push denzel94/my-jupyterhub:latest
