@@ -102,7 +102,7 @@
 
           - name: Build Docker Image
             run: |
-              docker build --build-arg ROOT_DIR=/srv/jupyterhub -t username/my-jupyterhub:latest .
+              docker build --build-arg ROOT_DIR=/srv/jupyterhub -t denzel94/my-jupyterhub:latest .
 
           - name: Test Docker Image
             run: |
