@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jupyterhub:
+    image: denzel94/my-jupyterhub:latest
+    container_name: jupyterhub-container
+    ports:
+      - "8000:8000"
+    volumes:
+      - jupyterhub_data:/srv/jupyterhub
+    environment:
+      - ROOT_DIR=/srv/jupyterhub
+
+volumes:
+  jupyterhub_data:
