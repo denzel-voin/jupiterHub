@@ -115,3 +115,4 @@
               docker push username/my-jupyterhub:latest
 ```
 `DOCKER_USERNAME` и `DOCKER_PASSWORD ` добавляем в настройках репозитория в github.
+![img_1.png](img_1.png)
