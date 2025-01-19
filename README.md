@@ -71,6 +71,7 @@
 ```bash
     docker-compose up -d
 ```
+![img.png](img.png)
 ## 4. Создание CI/CD пайплайна с GitHub Actions:
 
 - Создаём файл .github/workflows/docker-ci.yml
